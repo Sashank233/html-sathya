@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+    <table border="0" cellpadding="10">
+
+        <tr>
+            <td>Roll No.</td>
+            <td><input type="text" name="rollno"></td>
+        </tr>
+
+        <tr>
+            <td>Student Name</td>
+            <td><input type="text" name="studentname"></td>
+        </tr>
+
+        <tr>
+            <td>Father's Name</td>
+            <td><input type="text" name="fathername"></td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+
+        <tr>
+            <td>Mobile No.</td>
+            <td>
+                +91 <input type="tel" name="mobile" maxlength="10" placeholder="Enter 10-digit number" size="11">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Department</td>
+            <td>
+                <input type="checkbox"> CSE
+                <input type="checkbox"> IT
+                <input type="checkbox"> ECE
+                <input type="checkbox"> Civil
+                <input type="checkbox"> Mech
+            </td>
+        </tr>
+
+        <tr>
+            <td>Course</td>
+            <td>
+                <select>
+                    <option>----Select Course----</option>
+                    <option>B.Tech</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>M.Tech</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Student Photo</td>
+            <td><input type="file"></td>
+        </tr>
+
+        <tr>
+            <td>City</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="3" cols="20"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>

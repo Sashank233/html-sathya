@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <h1>Registration Form...</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+    <form>
+        <label>Username*:</label>
+        <input type="text" name="Username" id="Username" placeholder="Write your user name"><br><br>
+         <label>Password*:</label>
+         <input type="password" name="Password" id="Password" placeholder="Write your password"><br><br>
+        <label>Email:</label>
+        <input type="email" name="Email" id="Email" placeholder="Write your email"><br><br>
+        <label>Phone Number:</label>
+        <input type="tel" name="Phone Number" id="Phone Number" placeholder="Write your phone number"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label>Female</label>
+        <input type="radio" name="Gender" id="Other" value="Other">
+        <label>Other</label><br><br>
+        <label>Date of Birth:</label>
+        <input type="date" name="Date of Birth" id="Date of Birth">
+        </fieldset>
+        <fieldset>
+            <legend>Astrology</legend>
+            <label>lucky time</label>
+            <input type="time" name="lucky time" id="lucky time"><br><br>
+            <label>Choose Color:</label>
+            <input type="color" name="Choose Color" id="Choose Color"><br><br>
+            <label>Select range</label>
+            <input type="range" name="Select range" id="Select range" min="1" max="10"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Intrests</legend>
+            <label>Hobbies:</label><br>
+            <input type="checkbox" name="sleeping" id="sleeping" value="sleeping">
+            <label for="sleeping">Sleeping</label>
+            <input type="checkbox" name="chatting" id="chatting" value="chatting">
+            <label for="chatting">Chatting</label>
+            <input type="checkbox" name="Eating" id="Eating" value="Eating">
+            <label for="Eating">Eating</label><br><br>
+            <input type="checkbox" name="roming" id="roming" value="roming">
+            <label for="roming">Roming</label>
+            <input type="checkbox" name="playing" id="playing" value="playing">
+            <label for="playing">Playing</label><br><br>
+            <label>Country:</label>
+            <select name="Select your country" id="Select your country" size="0">
+                <option value="">--Select your country--</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                </select><br><br>
+                <label>Course Selection:</label>
+                <select name="Course Selection" id="Course Selection" multiple size="3">
+                    <option value="HTML">Core java</option>
+                    <option value="CSS">Advanced java</option>
+                    <option value="JavaScript">Spring</option>
+                    <option value="React">phyton</option>
+                    </select>
+                    </fieldset><br>
+                    <fieldset>
+                         <legend>Document Upload</legend>
+                        <label>Upload Resume:</label>
+                        <input type="file" name="Upload Resume" id="Upload Resume"><br><br>
+                        <label>Upload Photo:</label>
+                        <input type="file" name="Upload Photo" id="Upload Photo"><br><br>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend>Your comments</legend>
+                        <label>Comments:</label><br>
+                        <textarea name="Comments" id="Comments" rows="5" cols="30"></textarea>
+                    </fieldset><br>
+        <button>Register</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
